@@ -1,0 +1,29 @@
+1)mkdir-folder yaradir.
+2)pwd-desktopda harad oldugumuzu gosterir
+3)ls-oldugumuz folderde olan folder ve ya fayllari gosterir
+4)cd-oldugumuz yeri teyin etdiyimiz yere deyisir.
+5)touch-fayl yaradir
+6)clear-terminali temizleyir
+7)ctrl+l-terminali temizleyir
+8)vim-faylin icerisine yazi yazir
+9)cd .. - desktopda bir arxaya qayidir arxa foldere kecmeye komek edir
+10)rmdir-pabkani silir
+11)rm-Faylları və ya qovluqları silmək üçün istifadə olunur
+12)open-fayli acir
+13)open.-hal hazirda oldugumuz fayli acir
+14)dir-ls kimi ls yerine isleyir
+15)/-alt pabkani gosterir
+16)find-faylları və qovluqları axtarmaq üçün istifadə olunur
+17)top-Aktiv prosesləri göstərir və sistem resurslarını izləmək üçün istifadə olunur
+18)history-Əvvəlki işləri siyahılayır və istifadəçilərə əmrlərin tarixini göstərir
+19)cp-faylları və ya qovluqları kopyalamaq üçün istifadə olunur.
+20)grep-Mətni axtarmaq üçün istifadə olunur.
+
+
+
+
+
+
+
+
+

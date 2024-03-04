@@ -1,0 +1,31 @@
+1.git status-deyisiklikleri gosterir...
+2.git init-Yeni bir Git repository yaratmaq üçün istifadə olunur.
+3.git clone- Mövcud bir repository-ni klonlamaq üçün istifadə olunur.Yeni oz komputerimize 
+kocurmek ucun ve ya uzerinde deyisiklik aparmaga komek olur.
+4.git add . -deyisiklikleri gite elave edir.
+5.git commit- deyisiklikleri kommit kimi tesdiqlemek ucun istifade olunur.
+6.git push-Yerli repository-dəki dəyişiklikləri uzaq serverdəki repository-ə göndərmək üçün istifadə olunur
+7.git pull-Uzaq serverdəki repository-dəki dəyişiklikləri yerli repository-ə gətirmək üçün istifadə olunur.
+8.git branch-Branch yaratmaq və ya göstərmək üçün istifadə olunur.
+9.git checkout-Fərqli branch-lar arasında keçid etmək və ya faylları müvafiq bir kommit və ya branch-ə çatdırmaq üçün istifadə olunur.
+10.git merge-Fərqli branch-ları birləşdirmək üçün istifadə olunur.
+11.git log-Kommit tarixçəsini göstərir.
+12.git remote-Uzaq repository-lərin idarə edilməsi üçün istifadə olunur.
+13.git fetch: Uzaq repository-dəki dəyişiklikləri gətirir, lakin yerli dəyişikliklərə nəzarət etmir.
+14.git reset: İndeksdəki və ya işdəki dəyişiklikləri geri alır.
+15.git revert: Bir və ya bir neçə kommiti geri alır.
+16.git stash: İşdəki dəyişiklikləri qaldırır və bir stash-da saxlayır.
+17.git tag: Bir kommiti və ya proyektin hansısa bir nöqtəsini işarələmək üçün istifadə olunur.
+18.git diff: Fayllar arasındakı dəyişiklikləri göstərir.
+19.git config: Git konfiqurasiyasını tənzimləmək üçün istifadə olunur.
+20.git rm: Faylları repository-dən silmək üçün istifadə olunur.
+21.git rebase: Fərqli branch-ları yenidən bazalamaq üçün istifadə olunur.
+22.git cherry-pick: Bir və ya bir neçə kommiti seçir və yenidən bazalamaq üçün istifadə olunur.
+23.git bisect: Problemli bir kommiti axtarmaq üçün istifadə olunur.
+24.git submodule: Alt-modulları idarə etmək üçün istifadə olunur.
+25.git show: Bir kommiti göstərir.
+26.git blame -Bir faylın hansı sətirində dəyişiklik olduğunu göstərir və kimin tərəfindən edildiyini göstərir.
+27.git log --graph: Kommit tarixçəsini qrafik şəklində göstərir.
+28.git log --oneline: Hər bir kommiti bir sətrdə göstərir.
+29.git log --author: Bir avtorun əməliyyat tarixçəsini göstərir.
+30.git log --since: Bir tarixdən etibarən əməliyyat tarixçəsini göstərir.
