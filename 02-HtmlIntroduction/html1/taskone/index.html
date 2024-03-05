@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="name" >Name:
+        <input type="text" placeholder="Please write name..." id="name" minlength="1" maxlength="5" required>
+        </label>
+        <br>
+        <label for="favnumber">Fav number:
+        <input type="number" placeholder="Write favourite number..." id="favnumber" min="6" max="30" required>
+        </label>
+        <br>
+        <label for="email">Email:
+        <input type="email" placeholder="Write your email..." id="email" required>
+        </label>
+        <br>
+        <label for="password">Password:
+        <input type="password" placeholder="Write your password..." id="password" required>
+        </label>
+        <br>
+        <label for="">Gender:</label>
+        <label for="female">
+        <input type="radio" id="female" checked>Female
+        </label> 
+        <label for="male">
+            <input type="radio" id="male">Male
+        </label>
+        <br>
+        <label for="country">Country:</label>
+        <select name="" id="country" required>
+            <option value="Usa">USA</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+        </select>
+        <br>
+        <br>
+        <label for="textarea">Message:</label> 
+        <br>
+        <textarea name="" placeholder="Write text..." id="textarea" cols="50" rows="5" required></textarea>
+        <br>
+        <label for="checkbox">Subscribe to newsletter:</label>
+        <input type="checkbox" id="checkbox" required>
+        <br>
+        <label for="file">Upload file:</label>
+        <input type="file" placeholder="Choose File" multiple required>
+        <br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" required>
+        <br>
+        <label for="color">Favorite Color:</label>
+        <input type="color" required>
+        <br>
+        <label for="website">Personal Website:</label>
+        <input type="url" required id="website">
+        <br>
+        <input type="submit" required>
+        <input type="reset">
+    </form>
+</body>
+</html>
