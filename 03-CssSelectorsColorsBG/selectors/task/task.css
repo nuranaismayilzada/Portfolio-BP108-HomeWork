@@ -51,3 +51,72 @@ form~p{
     altinda clasi .have olan elementin rengini deyissin */
     color: crimson;
 }
+.social{
+    /* bu o demekdir ki clas vasitesile arxa fon rengini deyismisik */
+    background-color: violet;
+}
+#facebook{
+        /* bu o demekdir ki id vasitesile arxa fon rengini deyismisik */
+    background-color: aqua;
+}
+ul> .instagram{
+    /* bu o demekdir ki ul teqinin altinda classi instagram
+    olanin reng ve arxa fon rengini deyisirik */
+    color:brown;
+    background-color:wheat;
+}
+ul> #tiktok{
+    /* bu o demekdir ki ul teqinin altinda classi instagram
+    olanin reng ve arxa fon rengini deyisirik */
+    background-color: teal;
+    color: aliceblue;
+}
+.courses~ol{
+    /* Bu o demekdir ki classi courses olannan eyni seviyyede olan
+    ol-nin background colorunu deyis */
+    background-color: chartreuse;
+}
+.courses~#siralama{
+    /* bu o demekdir ki classi courses olanla eyni seviyede olan
+    id-si siralama olanin color ve background colorunu deyissin. */
+    color: red;
+     background-color: yellow;
+}
+.unordered .code{
+    /* klasi unordered olanin altinda klasi code olanin rengini deyisir */
+    color: tomato;
+}
+.unordered #step{
+        /* klasi unordered olanin altinda idsi step olanin rengini deyisir */
+    color: rgba(95, 12, 12, 0.427);
+}
+table th{
+    /* table teqinin altindaki th atributlarinin
+    hamsinin rengini deyisir */
+    color: rgb(241, 1, 1);
+}
+table #name{
+     /* table teqinin altindaki id-si name olanin
+    rengini deyisir */
+    color: black;
+}
+table .surname{
+    /* table teqinin altindaki clasi surname olanin
+  arxa fon rengini deyisir */
+   background-color: rgb(207, 134, 134);
+}
+table thead{
+    /* tablenin icindeki thead teqinin
+    arxa fon rengini deyisir */
+    background-color:aquamarine ;
+}
+table>#body{
+    /* tablenin icindeki id-si body olanin
+    arxa fon rengini deyisir */
+    background-color: cadetblue;
+}
+table #age{
+   /* tablenin icindeki id-si body olanin
+    arxa fon rengini deyisir */
+    color: rgb(11, 20, 46);
+}
