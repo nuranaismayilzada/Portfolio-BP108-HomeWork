@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(255, 255, 255);
+    /* burada body-nin arxa fon rengini teq selector vasitesile deyismisik */
+}
+.h1title{
+    background-color: rgba(255, 192, 203, 0.255);
+    /* burada h1 teqinin class selectoru vasitesile arxafonu rengini deyismisik */
+}
+#text{
+/* burada id-si text olan teqin id selectoru vasitesile arxafonu rengini ve oz re
+rengini deyismisik */
+    color: beige;
+    background-color: black;
+}
+button{
+/* buttona muraciet edib butonun rengini ve arxa fon rengini deyismisik */
+    background-color: rgb(137, 137, 216);
+    color: white;
+}
+div>span{
+/* bu  selector o demekdir ki div teqinin altinda olan span teqinin
+arxa fon rengini deyisir*/
+    background-color: red;
+}
+#qeydiyyat>.registr{
+/* burada id-si qeydiyyat olan teqin altinda olan classi registr
+olan teqin rengini deyisir */
+    color: white;
+}
+.login span{
+    /* burada clasi login olan teqin altindaki spanin
+    arxa fon rengi deyisir */
+    background-color: rgba(0, 128, 0, 0.362);
+}
+form input{
+    /* bu odurki form teqinin altinda olan input teqlerinin
+    arxa fon rengi pink olsun */
+    background-color: pink;
+}
+form {
+    /* bu odurki form elementinin arxa fon rengi deyissin */
+    background-color: rgba(255, 192, 203, 0.277);
+}
+form~p{
+    /* bu o demekdir ki form elementi bittikden sonra
+    formla qonsu olan p elementinin rengi qirmizi olsun */
+    color: red;
+}
+.login .have{
+    /* bu o demekdir ki classi login olan elementin
+    altinda clasi .have olan elementin rengini deyissin */
+    color: crimson;
+}
