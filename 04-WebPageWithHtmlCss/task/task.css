@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #409EB6;
+}
+.animal{
+    margin-left:650px;
+    margin-top: 20px;
+}
+.parttwo{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    height: 40px;
+    background-color:#61947B;
+    padding-top: 10px;
+}
+.home{
+    color: white;
+    margin-left: 400px;
+    padding-bottom: 10px;
+}
+.facts{
+    color: white;
+    padding-left: 600px;
+}
+.partthree .imagee{
+    display: inline-block;
+    width: 200px;
+}
+.partthree{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.partthree .text{
+    width: 900px;
+    height: 50px;
+    display: inline-block;
+}
+.partthree img{
+    width: 150px;
+    height: 150px;
+}
+.text{
+    height: 200px;
+    display: inline-block;
+}
+.one{
+    padding-bottom: 200px;
+}
+.white{
+    color: white;
+}
+.moose{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.partfour{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.lis{
+    padding-left: 20px;
+}
+.partfive{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.liss{
+    padding-left: 20px;
+}
+.were{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.video{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+}
