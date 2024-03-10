@@ -43,8 +43,9 @@ body{
     display: inline-block;
 }
 .partthree img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    padding-left: 10px;
+    height: 60px;
 }
 .text{
     height: 200px;
