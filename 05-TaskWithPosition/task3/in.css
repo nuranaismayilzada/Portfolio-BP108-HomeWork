@@ -1,0 +1,74 @@
+body{
+    height: 100vh;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
+.main{
+    height: 300px;
+    width: 900px;
+    padding: 200px;
+    margin:100px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.smallmain{
+    position: absolute;
+    width: 400px;
+    border-radius: 20px;
+    padding: 50px;
+    height: 400px;
+    left: 60px;
+    top: 220px;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);   
+}
+.date{
+    color:gray;
+    font-size: large;
+    text-align: center;
+}
+.uc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.lorem{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+}
+.loorem{
+    text-align: center;
+    width: 500px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:320px;
+    top: 300px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    right: 400px;
+    position: absolute;
+}
+button{
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 30px;
+    text-align: center;
+    font-size: large;
+}
