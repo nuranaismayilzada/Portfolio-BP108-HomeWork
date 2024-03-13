@@ -1,0 +1,365 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.onepage{
+    padding: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+}
+.navbar{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    left: 0px;
+}
+.navbar{
+    border: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar .left-side h1{
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: large;
+}
+.navbar .right-side{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+.navbar .right-side a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar .right-side a:hover{
+    color: white;
+}
+.onepage{
+    position: relative;
+}
+.onepage .partone{
+    display: flex; 
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+    top:400px;
+    right: 700px;
+    align-items:center;
+}
+.onepage .partone p{
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgba(165, 165, 165, 0.9);
+
+}
+.onepage .partone h1{
+    font-size:100px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(rgba(219, 219, 219, 0.9), rgba(255, 255, 255, 0))
+}
+.onepage .partone button{
+    background-color: #64a19d;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+.onepage .parttwo{
+    display: flex;
+    top: 400px;
+    left: 700px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.onepage .parttwo h1{
+    color:grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.onepage .parttwo p{
+    width: 600px;
+    height: 20px;
+}
+.twopages .partone{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+}
+.twopages .parttwo{
+    background-color:black;
+    height:300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.twopages .parttwo h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.twopages .parttwo p{
+    color: rgba(255, 255, 255, 0.5) ;
+    width: 600px;
+    height: 60px;
+}
+.twopages .parttwo a{
+    color: #64a19d;
+}
+.twopages .partthree{
+    background-color: black;
+}
+.twopages .partthree img{
+    width: 864px;
+    height: 244px;
+    margin-left: 400px;
+}
+.threepages .partone{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.threepages .parttwo{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.threepages .parttwo .left-side img{
+    width: 696px;
+    height: 435px;
+}
+.threepages .parttwo .right-side{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.threepages .parttwo .right-side h1{
+    color: #212529;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.threepages .parttwo .right-side p{
+    width: 308px;
+    height: 120px;
+    color: #00000080;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fourthpages{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.fourthpages .onepage img{
+    object-fit:contain;
+}
+.fourthpages .onephoto{
+    width: 512px;
+    height: 437px;
+}
+.fourthpages .twophoto{
+    width: 512px;
+    height: 437px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.fourthpages .twophoto h1{
+    width: 452px;
+    height: 28px;
+    align-items: center;
+    margin-left: 400px;
+    color: white;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fourthpages .twophoto p{
+    width: 308px;
+    height: 120px;
+    color: #6c757d;
+    font-size: 16px;
+    width: 452px;
+    height: 43px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.fourthpages .threephoto{
+    width: 512px;
+    height: 437px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.fourthpages .threephoto h1{
+    width: 452px;
+    height: 28px;
+    align-items: center;
+    margin-left: 400px;
+    color: white;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fourthpages .threephoto p{
+    width: 308px;
+    height: 120px;
+    color: #6c757d;
+    font-size: 16px;
+    width: 452px;
+    height: 43px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fourthpages .fourphoto{
+    width: 512px;
+    height: 437px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.fifthpages{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 100px;
+    height: 508px;
+    width: 100%;
+    padding: 160px 0px;
+    flex-direction: column;
+    row-gap: 20px;
+    background-position: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+}
+.fifthpages .ones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.fifthpages .ones h1{
+    height: 38px;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 0px 0px 48px;
+}
+.fifthpages .ones .input{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.fifthpages .ones .input input{
+    width: 600px;
+    height: 50px;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.fifthpages .ones .input button{
+    width: 187px;
+    height: 50px;
+    color: white;
+    padding: 0px 12px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #64a19d;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sixpages{
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.sixpages .card{
+    width: 374px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    height: 201px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px;
+    border-radius: 10px;
+    background-color: white;
+}
+.sixpages .card h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.sixpages .card .xett{
+    border: 2px solid #64a19d;
+    width: 20px;
+}
+.sixpages .card .unvan{
+    font-size: 14px;
+    color: #00000080;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lastpages{
+    background-color:black ;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.lastpages i{
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+    padding-left: 40px;
+    padding-top: 15px;
+    background-color: #6c757d;
+}
+.lastpages i:hover{
+    padding: 10px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: #000;
+}
