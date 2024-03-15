@@ -1,0 +1,785 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 1cininbaslangici */
+.container-1{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    background-color: black;
+}
+.box1{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-1{
+    background-color: #D31455;
+}
+.box-2{
+    background-color: #8D1B9F;
+}
+.box-3{
+    background-color: #6F3CE9;
+}
+.box-4{
+    background-color:#3B7EF0 ;
+}
+.box-5{
+    background-color: #00ABC2;
+}
+.box-6{
+    background-color: #7CB03C;
+}
+.box-7{
+    background-color: #BECF1F;
+}
+.box-8{
+    background-color: #E5D515;
+}
+.box-9{
+    background-color: #E3AD00;
+}
+.box-10{
+    background-color: #E34B0A;
+}
+/* 1cinin sonu */
+
+/* 2cinin baslangici */
+.container-2{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.box2{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* 2cinin sonu */
+
+/* 3cunin baslangici */
+.container-3{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+}
+.box3{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+/* 3cunun sonu */
+
+/* 4cunun baslangici */
+.container-4{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+}
+.box4{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.box4-1{
+    background-color: #D31455;
+}
+.box4-2{
+    background-color: #8D1B9F;
+}
+.box4-3{
+    background-color: #00ABC2;
+}
+.box4-4{
+    background-color:#BECF1F;
+}
+.box4-5{
+    background-color: #E5D515;
+}
+/* 4cunun sonu */
+
+/* 5cinin baslangici */
+.container-5{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content:space-between;
+    background-color: black;
+}
+.box5{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+/* 5cinin sonu */
+
+/* 6cinin baslangici */
+.container-6{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content:space-evenly;
+    background-color: black;
+}
+.box6{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+/* 6cinin sonu */
+
+/* 7cinin baslangici */
+.container-7{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    background-color: black;
+}
+.box7{
+    height: 200px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* 7cinin sonu */
+
+/* 8cinin baslangici */
+.container-8{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.box8{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* 8cinin sonu */
+
+/* 9cunun baslangici */
+.container-9{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+}
+.box9{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    height: 80px;
+    font-weight: 900;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.boxs4-4{
+    font-weight: 900;
+    font-size: 70px;
+}
+/* 9cunun sonu */
+
+/* 10cunun baslangici */
+.container-10{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.box10{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* 10cunun sonu */
+
+/* 11cinin baslangici */
+.container-11{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.box11{
+    margin-top: 30px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight:900;
+    padding: 8px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+.three{
+    margin-top: 47px;
+    height:20px;
+    font-size: 10px;
+}
+.four{
+    height:30px;
+    margin-top: 38px;
+}
+.five{
+    font-size:40px;
+    height: 55px;
+    width: 30px;
+    margin-top: 20px;
+}
+.six{
+    height: 30px;
+    margin-top: 35px;
+}
+.seven{
+    height:15px;
+    font-size: 7px;
+    margin-top: 46px;
+}
+.eight{
+    margin-top: 0px;
+    font-size:70px;
+    height: 75px;
+    width: 45px;
+}
+.nine{
+    height: 35px;
+}
+.ten{
+    height: 35px;
+}
+/* 11cinin sonu */
+
+/* 12cinin baslangici */
+.container-12{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.box12{
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* 12cinin sonu */
+
+/* 13cunun baslangici */
+
+.container-13{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    background-color: black;
+}
+.box13{
+    height: 300px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.th3{
+    height: 40px;
+}
+/* 13cunun sonu */
+
+/* 14cunun baslangici */
+.container-14{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    background-color: black;
+}
+.box14{
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.thh3{
+    height: 300px;
+}
+/* 14cunun sonu */
+
+/* 15cinin baslangici */
+.container-15{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    background-color: black;
+}
+.box15{
+    height: 300px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.thhh3{
+    height: 40px;
+}
+
+/* 15cinin sonu */
+
+
+/* 16cinin baslangici */
+.container-16{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    background-color: black;
+}
+.box16{
+    height: 300px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+.thhh3{
+    height: 40px;
+    margin-top: 30px;
+}
+.th4{
+    height: 80px;
+    font-size: 70px;
+}
+.th5{
+    height: 30px;
+    margin-top: 35px;
+}
+/* 16cinin sonu */
+
+/* 17cinin baslangici */
+.container-17{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    background-color: black;
+}
+.box17{
+    height: 300px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.thhhh3{
+    height: 30px;
+    align-self: self-end;
+}
+/* 17cinin sonu */
+
+
+/* 18cinin baslangici */
+.container-18{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    background-color: black;
+}
+.box18{
+    height: 300px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+/* 18cinin sonu */
+
+/* 19cunun baslangici  */ 
+.container-19{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    height: 390px;
+    width: 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    column-gap: 0px;
+    background-color: black;
+}
+.box19{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.box111{
+    flex-grow: 1;
+}
+.box22{
+    flex-grow: 1;
+}
+.box33{
+    flex-grow: 1;
+}
+.box44{
+    flex-grow: 1;
+}
+.box55{
+    flex-grow: 1;
+}
+.box66{
+    flex-grow: 1;
+}
+.box77{
+    flex-grow: 1;
+}
+
+.box88{
+    flex-grow: 1;
+}
+.box99{
+    flex-grow: 1;
+}
+
+/* 19cunun  sonu*/
+
+/* 20cinin baslangici */
+.container-20{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    height: 390px;
+    width: 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    column-gap: 0px;
+    background-color: black;
+}
+.box20{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.box111{
+    flex-grow: 1;
+}
+.box22{
+    flex-grow: 1;
+}
+.box33{
+    flex-grow: 1;
+}
+.box44{
+    flex-grow: 1;
+}
+.box55{
+    flex-grow: 1;
+}
+.box66{
+    flex-grow: 1;
+}
+.box77{
+    flex-grow: 1;
+}
+
+.box88{
+    flex-grow: 1;
+}
+.box99{
+    flex-grow: 1;
+}
+
+/* 20cinin sonu  */
+
+
+/* 21cinin evveli */
+.container-21{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    height: 390px;
+    width: 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    gap: 5px;
+    column-gap: 0px;
+    background-color: black;
+}
+.box21{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.box111{
+    flex-grow: 1;
+}
+.box22{
+    flex-grow: 1;
+}
+.box33{
+    flex-grow: 1;
+}
+.box44{
+    flex-grow: 1;
+}
+.box55{
+    flex-grow: 1;
+}
+.box66{
+    flex-grow: 1;
+}
+.box77{
+    flex-grow: 1;
+}
+
+.box88{
+    flex-grow: 1;
+}
+.box999{
+    flex-grow: 1;
+}
+.box101010{
+    align-self: flex-end;
+
+}
+/* 21cinin sonu */
+
+/* 22cinin evveli */
+.container-22{
+    margin-top: 20px;
+    border: 3px solid red;
+    display: flex;
+    height: 390px;
+    width: 400px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: row;
+    background-color: black;
+}
+.box22{
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.box111{
+    flex-grow: 1;
+}
+.box22{
+    flex-grow: 1;
+}
+.box33{
+    flex-grow: 1;
+}
+.box44{
+    flex-grow: 1;
+}
+.box55{
+    flex-grow: 1;
+}
+.box66{
+    flex-grow: 1;
+}
+.box77{
+    flex-grow: 1;
+}
+
+.box88{
+    flex-grow: 1;
+}
+.box99{
+   flex-grow: 1;
+}
+.box1010101010{
+    width: 100px;
+    height: 100px;
+}
+/* 22cinin sonu  */
+
+
+
+
+
+
