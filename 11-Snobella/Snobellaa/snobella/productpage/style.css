@@ -1,0 +1,1122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar start */
+header {
+    background-color: #007878;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 1128px;
+}
+.navbar {
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.navbar .left-side p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #FFFFFFE5;
+    font-size: 14px;
+    line-height: 23.8px;
+    text-align: left;
+}
+
+.navbar .right-side nav ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.navbar .right-side nav ul li {
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    line-height: 16.8px;
+    cursor: pointer;
+    text-align: left;
+}
+.navbar .right-side nav ul li:nth-child(2) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* navbar finish */
+
+
+
+
+/* snobellasearching start */
+@font-face {
+    font-family: Palanquin-Bold;
+    src: url("../assets/fonts/Palanquin-Bold.ttf");
+}
+@font-face {
+    font-family:Poppins-Medium;
+    src: url("../assets/fonts/Poppins-Medium.ttf");
+}
+.snobellasearching{
+    background-color: white;
+}
+.searching{
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:baseline;
+}
+.snobellasearching .searching .top-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 17px;
+}
+.snobellasearching .searching .top-side .right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    column-gap: 108px;
+}
+.snobellasearching .searching .top-side .right-side h1{
+    font-family: Palanquin-Bold;
+    font-weight: 700;
+}
+.snobellasearching .searching .top-side .left-side{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    column-gap: 26px;
+}
+.snobellasearching .searching .top-side .left-side>div{
+    width: 86px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 11px;
+}
+.snobellasearching .searching .top-side .left-side>div>img{
+    width: 20px;
+    height: 24px;
+}
+.snobellasearching .searching .top-side .left-side>div p{
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.snobellasearching .searching .top-side .right-side .product-search input{
+    width: 504px;
+    height: 48px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #F7F9FC;
+    border: none;
+    padding: 15px 34px 14px 16px ;
+
+}
+.snobellasearching .searching .top-side .right-side .product-search{
+    position: relative;
+}
+.snobellasearching .searching .top-side .right-side .product-search img{
+    position: absolute;
+    top: 12px;
+    bottom: 12px;
+    width: 24px;
+    height: 24px;
+    right: 12px;
+}
+@font-face {
+    font-family: Poppins400;
+    src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+.snobellasearching .searching .bottom-side{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:center;
+    column-gap: 44px;
+}
+.snobellasearching .searching .bottom-side a{
+    text-decoration: none;
+    font-family: Poppins400;
+    color: #273142;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    cursor: pointer;
+}
+/* snobellasearching finish */
+
+/* shoulder start */
+.shoulderrbags{
+    background-color: white;
+}
+.shoulderrbags .shoulder{
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+}
+.shoulderrbags .shoulder div:first-child{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    column-gap: 4px;
+}
+.shoulderrbags .shoulder div:first-child p{
+    font-family: Poppins400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+    color: #1D1D1DBF;    
+}
+/* shoulderbag finished */
+/* bagsdescriptions start */
+.bagsdescriptions .bagsdes .fourth .bags{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.bagsdescriptions .bagsdes .fourth>img{
+    margin-left: 25px;
+}
+.bagsdescriptions .bagsdes .fourth .bags .bag{
+    width: 72px;
+    height: 94px;
+    border-radius: 3px;
+    border: 1px solid #206363;
+}
+.bagsdescriptions .bagsdes{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.bagsdescriptions .bagsdes .bigcard{
+    width: 456px;
+    height: 473px;
+    border-radius: 3px; 
+    background-color: #F9F9F9;
+    margin-left: 25px;
+}
+.bagsdescriptions .bagsdes .bigcard .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bagsdescriptions .bagsdes .bigcard .top>button{
+    width: 79px;
+    height: 32px;
+    font-family: Poppins500;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+    color: white;
+    border: none;
+    margin-top: 24px;
+    margin-left: 24px;
+    text-align: center;    
+    background-color: #DF4244;
+    border-radius: 8px;    
+}
+.bagsdescriptions .bagsdes .bigcard .top>img{
+    margin-top: 24px;
+    margin-right: 24px;
+}
+.bagsdescriptions .bagsdes .bigcard>img{
+    margin-top: 38px;
+    margin-left: 56px;
+    margin-right: 60px;
+}
+@font-face {
+    font-family:Rubik500;
+    src: url("../assets/fonts/Rubik-Bold.ttf");
+}
+.bagsdescriptions .bagsdes .magique{
+    max-width:  100rem;
+    margin-left: 64px;
+}
+.bagsdescriptions .bagsdes .magique .one h1{
+    font-family: Rubik500;
+    font-size: 24px;
+    font-weight: 500;
+    color:#212121;
+    line-height: 40.8px;
+    text-align: left;    
+}
+.bagsdescriptions .bagsdes .magique .two{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.bagsdescriptions .bagsdes .magique .buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    margin-top: 24px;
+    row-gap: 16px;
+}
+.bagsdescriptions .bagsdes .magique .buttons button{
+    width: 224px;
+    height: 60px;
+    border: 1px solid #E4E4E4;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;   
+}
+.bagsdescriptions .bagsdes .magique .sizecolor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+    justify-content: space-around;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14px;
+    margin-top: 16px;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 17px;
+    margin-right: 30px;
+}
+.bagsdescriptions .bagsdes .magique .twobuttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    margin-top: 40px;
+}
+@font-face {
+    font-family:Montserrat500;
+    src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+.bagsdescriptions .bagsdes .magique .twobuttons button{
+    width: 244px;
+    height: 52px;
+    font-family: Montserrat500;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+.bagsdescriptions .bagsdes .magique footer{
+    margin-top: 16px;
+}
+.bagsdescriptions .bagsdes .magique footer a{
+    font-family: Poppins400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;    
+}
+
+.bagsdescriptions .bagsdes .magique .twobuttons button:nth-child(1){
+    background-color: #DF4244;
+    color: white;
+    border: none;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .colors div{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .colors div:nth-child(1){
+    border: 1px solid #273142BF;
+    background-color: #CD5C0B;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .colors div:nth-child(2){
+    background-color: #0085FF;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .colors div:nth-child(3){
+    background-color: #35783B;
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .colors div:nth-child(4){
+    background-color: #ED0875;
+}
+
+.bagsdescriptions .bagsdes .magique .sizebuttons .sizes button{
+    width: 64px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: Poppins400;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #E4E4E4;
+    line-height: 27.2px;
+    text-align: center;   
+}
+.bagsdescriptions .bagsdes .magique .sizebuttons .sizes button:first-child{
+    border: 1px solid #212121
+}
+.bagsdescriptions .bagsdes .magique .sizecolor h5{
+    font-family: Rubik500;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+}
+.bagsdescriptions .bagsdes .magique .buttons button:nth-child(3){
+    border: 1px solid #F75145;
+}
+.bagsdescriptions .bagsdes .magique .buttons button:nth-child(3) h5{
+    color: #F75145;
+}
+.bagsdescriptions .bagsdes .magique .buttons button p{
+    font-family: Poppins400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    color: #212121E5;
+    text-align: left;
+}
+@font-face {
+    font-family:Poppins500;
+    src: url("../assets/fonts/Poppins-Medium.ttf");
+}
+.bagsdescriptions .bagsdes .magique .buttons button h5{
+    font-family: Poppins500;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.6px;
+    text-align: left;    
+}
+.bagsdescriptions .bagsdes .magique .two p{
+    font-family: Poppins400;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 8px;
+    line-height: 23.8px;
+    text-align: left;    
+}
+.reviews .reviewss{
+    display: flex;
+    flex-direction: row;
+    column-gap: 48px;
+    margin-top: 103px;
+}
+.reviews .reviewss p{
+    font-family: Poppins500;
+    font-size: 20px;
+    color: #858585;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+}
+.reviews .reviewss h4{
+    font-family: Poppins500;    
+    color: #212121;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;   
+}
+.comments .commentss{
+
+}
+.comments .commentss .cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 24px;
+}
+.comments .commentss .cards .card{
+    width: 960px;
+    height: 186px;
+    border: 1px solid #21212147;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.comments .commentss .cards .card .headerr{
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    margin-top: 24px;
+    margin-left: 41px;
+}
+.comments .commentss .cards .card .date{
+    margin-left: 41px;
+}
+.comments .commentss .cards .card .date p{
+    font-family: Poppins400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;   
+    color: #212121BF; 
+}
+.comments .commentss .cards .car .headerr h1{
+    font-family: Rubik500;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+}
+.comments .commentss .cards .card .text{
+    width: 698px;
+    height: 48px;
+    margin-left: 24px;   
+}
+.comments .commentss .cards .card .text p{
+    font-family: Poppins400;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121BF;
+    line-height: 23.8px;
+    text-align: left;    
+}
+.productss .product{
+    display: flex;
+    flex-direction: row;
+    margin-top: 96px;
+    justify-content: space-between;
+}
+.productss .product h1{
+    font-family: Rubik500;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 54.4px;
+    text-align: left;
+    color: black;    
+}
+.productss .product .left-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+.productss .product .left-side p{
+    font-family: Poppins400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: center;    
+}
+.productss .product .left-side img{
+    width: 20px;
+    height: 20px;
+}
+.thirthbags .cards{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.thirthbags .cards .card{
+    width: 360px;
+    height: 568px;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.thirthbags .cards .card .bag{
+    margin-left: 38px;
+    margin-right: 38px;
+}
+.thirthbags .cards .card .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+@font-face {
+    font-family:Rubik400;
+    src: url("../assets/fonts/Rubik-Medium.ttf");
+}
+.thirthbags .cards .card .chevron{
+    
+}
+.thirthbags .cards .card .text h5{
+    font-family: Rubik400;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    line-height: 27.2px;
+    text-align: left;
+}
+.thirthbags .cards .card .text{
+    width: 302px;
+    height: 54px;
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 34px;
+}
+.thirthbags .cards .card .price{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-top: 16px;
+    align-items: center;
+    margin-left:24px ;
+}
+.thirthbags .cards .card .stairs{
+    margin-left: 24px;
+}
+.thirthbags .cards .card:nth-child(3) .bag{
+    margin-top: 27px;
+    margin-left: 66px;
+    margin-right: 75px;
+}
+.thirthbags .cards .card .price h5{
+    font-family: Poppins600;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    color: #F75145;
+}
+.thirthbags .cards .card .price p{
+    font-family: Poppins400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #363636BF;  
+    text-align: left;
+}
+.thirthbags .cards .card button{
+    width: 312px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #212121;
+    font-family: Poppins500;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: center;
+}
+.thirthbags .cards .card .button{
+     margin-top: 31px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 28px;
+}
+@font-face {
+    font-family: Poppins600;
+    src: url("../assets/fonts/Poppins-SemiBold.ttf");
+}
+.thirthbags .cards .card .top>button{
+    width: 79px;
+    height: 32px;
+    color: white;
+    border: none;
+    margin-left: 16px;
+    margin-top: 16px;
+    background-color: #43D167;
+    border-radius: 8px;   
+}
+.thirthbags .cards .card:nth-child(2) .top>button{
+    width: 79px;
+    height: 32px;
+    color: white;
+    border: none;
+    margin-left: 16px;
+    margin-top: 16px;
+    background-color: #DF4244;
+    border-radius: 8px;  
+}
+.thirthbags .cards .card .top>img{
+    margin-right: 16px;
+    margin-top: 16px;
+}
+.settings .seeting .cards{
+    width: 1130px;
+    height: 249px;
+    border: 1px solid #E4E4E4;
+    margin-top: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.settings .seeting .cards .card{
+    width: 192px;
+    height: 184px;
+    display: flex;
+    border-right: 1px solid #E4E4E4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+    margin-left: 37px;
+    margin-right: 40px;
+    margin-bottom: 33px;
+}
+.settings .seeting .cards .card h1{
+    font-family: Poppins500;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    line-height: 27.2px;
+    text-align: center;    
+}
+.settings .seeting .cards .card p{
+    font-family: Poppins400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: center;
+    color: #212121BF;
+    margin-top: 16px;
+}
+footer{
+    background-color:#F7F7F9;
+    margin-top: 100px;
+}
+footer .footer{
+    height: 546px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+footer .footer .headerr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+footer .footer .headerr>h1{
+    font-family: Palanquin-Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;    
+}
+footer .footer .headerr .right-side{
+    position: relative;
+}
+footer .footer .headerr .right-side img{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+footer .footer .headerr .right-side>input{
+    width: 504px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #9E9E9E59 ;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+footer .footer .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footer .main .right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+footer .footer .main .right-side>p{
+    font-family: Poppins400;
+    font-size: 16px;
+    color:#212121BF;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;    
+    width: 326px;
+}
+footer .footer .main .right-side .mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer .footer .main .right-side .telephone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer .footer .main .right-side button{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    border: 1px solid #171717;
+    padding: 10px 16px 11px 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer .footer .main .left-side{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    justify-content: space-between;
+}
+footer .footer .main .left-side>div{
+    display: flex;
+    flex-direction: row;
+}
+footer .footer .main .left-side>div>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 30px;
+}
+footer .footer .main .left-side>div>ul li{
+    list-style-type: none;
+    font-family: Poppins400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+}
+footer .footer .main .left-side>div>ul li:first-child{
+    font-family: RubikBold;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.6px;
+    text-align: left;    
+}
+footer .footer .end{
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+footer .footer .end .left-side p{
+    font-family: Poppins400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: center;    
+}
+footer .footer .end .right-side{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+@media only screen and (max-width:992px){
+    .container {
+        margin: 0px auto;
+    }
+    header{
+        max-width: 100%;
+    }
+    .navbar {
+        height: 68px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar .left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 5px;
+    }
+    .navbar .left-side p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: #FFFFFFE5;
+        font-size: 10px;
+        line-height: 23.8px;
+        padding: 0px 5px;
+        text-align: left;
+    }
+    .navbar .right-side nav ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .navbar .left-side img {
+        width: 20px;
+        padding-top: 5px;
+    }
+    .navbar .right-side nav ul li {
+        list-style-type: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+    }
+    .navbar .right-side nav ul li:nth-child(2) {
+        border-left: none;
+        border-right: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .searching{
+        height: 258px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    .snobellasearching .searching .top-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 10px;
+    }
+    .snobellasearching .searching .top-side .right-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .snobellasearching .searching .top-side .left-side{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .snobellasearching .searching .top-side .left-side>div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        row-gap: 16px;
+    }
+    .snobellasearching .searching .top-side .left-side>div>img{
+        width: 15px;
+        height: 18px;
+    }
+    .snobellasearching .searching .top-side .right-side .product-search input{
+        width: 204px;
+        height: 28px;
+        border-radius: 8px;
+        opacity: 0px;
+        background: #F7F9FC;
+        border: none;
+        padding: 5px 24px 4px 16px ;
+    }
+    .snobellasearching .searching .top-side .right-side .product-search{
+        position: relative;
+    }
+    .snobellasearching .searching .top-side .right-side .product-search img{
+        position: absolute;
+        top: 7px;
+        bottom: 12px;
+        width: 14px;
+        height: 14px;
+        right: 18px;
+    }
+    .snobellasearching .searching .bottom-side{
+        display: flex;
+        flex-direction: column;
+        align-items:baseline;
+        row-gap: 6px;
+    }
+    .snobellasearching .searching .bottom-side a{
+        text-decoration: none;
+        font-family: Poppins400;
+        color: #273142;  
+        font-size:16px;
+        font-weight: 400;
+        line-height: 27.2px;
+        cursor: pointer;
+    }
+    .bagsdescriptions .bagsdes .fourth{
+        display: none;
+    }
+    .bagsdescriptions .bagsdes{
+        display: flex;flex-direction: column;
+    }
+    .bagsdescriptions .bagsdes .magique{
+        display: flex;
+        flex-direction: column;
+    }
+    .bagsdescriptions .bagsdes .bigcard{
+        width: 256px;
+        height: 473px;
+        border-radius: 3px; 
+        background-color: #F9F9F9;
+        margin-left: 25px;
+    }
+    .bagsdescriptions .bagsdes .bigcard>img{
+        margin-top: 38px;
+        margin-left: 16px;
+        margin-right: 20px;
+        width: 250px;
+        height: 300px;
+    }
+    .bagsdescriptions .bagsdes .magique .sizebuttons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .comments{
+        display: none;
+    }
+    .productss{
+        display: none;
+    }
+    .thirthbags .cards .card{
+        width: 260px;
+        height: 568px;
+        background-color: #F9F9F9;
+        border-radius: 8px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .thirthbags .cards .card .bag{
+        margin-left: 38px;
+        margin-right: 38px;
+    }
+    .thirthbags .cards .card .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirthbags .cards .card .bag{
+        margin-top: 17px;
+        margin-left: 26px;
+        margin-right: 35px;
+    }
+    .thirthbags .cards .card .bag>img{
+        width: 150px;
+        height: 150px;
+    }
+    .thirthbags .cards .card .text{
+        width:202px;
+        height: 74px;
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 34px;
+    }
+    .thirthbags .cards .card .price{
+        margin-top: 40px;
+    }
+    .thirthbags .cards .card .button button{
+        width: 200px;
+        height: 30px;
+    }
+    .settings{
+        display: none;
+    }
+    footer .footer{
+        height: 946px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        margin-top: 900px;
+    }
+    footer .footer .headerr{
+     display: none;
+    }
+    
+    footer .footer .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer .footer .main .right-side{
+        display: none;
+    }
+
+    footer .footer .main .left-side{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: space-between;
+    }
+    footer .footer .main .left-side>div{
+        display: flex;
+        flex-direction: row;
+    }
+    footer .footer .main .left-side>div>ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        gap: 30px;
+    }
+    footer .footer .main .left-side>div>ul li{
+        list-style-type: none;
+        font-family: Poppins400;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+    }
+    footer .footer .main .left-side>div>ul li:first-child{
+        font-family: RubikBold;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30.6px;
+        text-align: left;    
+    }
+    footer .footer .end{
+        height: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    footer .footer .end .left-side p{
+        font-family: Poppins400;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27.2px;
+        text-align: center;    
+    }
+    footer .footer .end .right-side{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+}
