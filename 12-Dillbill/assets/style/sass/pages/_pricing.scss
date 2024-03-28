@@ -1,0 +1,309 @@
+.line {
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.321);
+}
+
+.pricingPage {
+    background-color: $pageColor;
+
+    .container {
+        @extend %container;
+
+        .pricing {
+            @include flexBoxDifferentParametrs(column, space-evenly, center, 51px);
+
+            .header {
+                margin-top: 50px;
+                @include flexBoxDifferentParametrs(column, center, center, 20px);
+
+                >h1 {
+                    @include textSizes(28px, 600);
+                    color: rgb(33, 35, 39);
+                    line-height: 33.6px;
+                    width: 805px;
+                    text-align: center;
+                    height: 34px;
+                }
+
+                .tiks {
+                    @include flexBox();
+                    gap: 70px;
+
+                    div {
+                        @include flexBox();
+                        gap: 10px;
+
+                        p {
+                            color: rgb(0, 0, 0);
+                            @include textSizes(16px, 500)
+                        }
+                    }
+                }
+            }
+        }
+
+        .cards {
+            @include flexBox();
+            gap: 20px;
+            margin-bottom: 40px;
+            .card {
+                .boottom-side{
+                    @include flexBoxDifferentParametrs(column, start, start, 10px);
+                    align-items: center;
+                    h3{
+                        @include textSizes(16px, 600);
+                        line-height: 25px;
+                        color: black;
+                        text-align: left;
+                    }
+                    p{
+                        text-align: left;
+                        width: 182px;
+                        height: 50px;
+                        line-height: 25px;
+                        color: black;
+                        @include textSizes(16px, 400);
+                    }
+                    button{
+                        text-align: center;
+                        padding: 12px;
+                        color: white;
+                        @include textSizes(18px, 500);
+                        line-height: 27px;
+                        height: 50px;
+                        width: 207px;
+                        cursor: pointer;
+                        background-color: rgb(30, 154, 241);
+                        border-radius: 8px;
+                        border: 1px solid rgba(0, 0, 0, 0);
+
+                    }
+                }
+                border-radius: 16px;
+                box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 0px;
+                background-color: white;
+                width: 255px;
+                height: 454px;
+                padding: 24px;
+                @include flexBoxDifferentParametrs(column, start, start, 26px);
+
+                >h1 {
+                    @include textSizes(20px, 600);
+                    color: black;
+                    width: 207px;
+                    height: 48px;
+                }
+
+                .aznicon {
+                    .left-side {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        gap: 100px;
+                        align-items: center;
+
+                        .month {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 15px;
+
+                            .azn {
+                                display: flex;
+                                flex-direction: row;
+
+                                h1 {
+                                    line-height: 48px;
+                                    ;
+                                    color: rgb(60, 169, 248);
+                                    @include textSizes(48px, 600)
+                                }
+
+                                span {
+                                    line-height: 30px;
+                                    color: rgb(60, 169, 248);
+                                    justify-items: end;
+                                    align-self: end;
+                                }
+                            }
+
+                            p {
+                                line-height: 19px;
+                                @include textSizes(16px, 600);
+                                color: rgba(33, 35, 39, 0.5);
+                            }
+                        }
+                    }
+                }
+            }
+            .two{
+                h2{
+                    gap: 0px;
+                    background-color: rgb(247, 193, 58);
+                    width: 257px;
+                    height: 47px;
+                    color: rgb(0, 0, 0);
+                    border-bottom-left-radius:0px;
+                    border-bottom-right-radius: 0px;
+                    border-top-left-radius: 16px;
+                    border-top-right-radius: 16px;
+                    @include textSizes(16px, 500);
+                }
+                border-radius: 16px;
+                box-shadow: rgb(247, 193, 58) 0px 1px 4px 0px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .pricingPage{
+
+    .container {
+        @extend %container;
+
+        .pricing {
+            @include flexBoxDifferentParametrs(column, space-evenly, center, 11px);
+
+            .header {
+                margin-top: 50px;
+                @include flexBoxDifferentParametrs(column, center, center, 0px);
+                >h1 {
+                    @include textSizes(28px, 600);
+                    color: rgb(33, 35, 39);
+                    line-height: 33.6px;
+                    width: 296px;
+                    text-align: center;
+                    height: 102px;
+                }
+
+                .tiks {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    div {
+                        @include flexBox();
+                        gap: 10px;
+
+                        p {
+                            color: rgb(0, 0, 0);
+                            @include textSizes(16px, 500)
+                        }
+                    }
+                }
+            }
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            gap: 20px;
+
+            .card {
+                .boottom-side{
+                    @include flexBoxDifferentParametrs(column, start, start, 10px);
+                    align-items: center;
+                    h3{
+                        @include textSizes(16px, 600);
+                        line-height: 25px;
+                        color: black;
+                        text-align: left;
+                    }
+                    p{
+                        text-align: left;
+                        width: 182px;
+                        height: 50px;
+                        line-height: 25px;
+                        color: black;
+                        @include textSizes(16px, 400);
+                    }
+                    button{
+                        text-align: center;
+                        padding: 12px;
+                        color: white;
+                        @include textSizes(18px, 500);
+                        line-height: 27px;
+                        height: 50px;
+                        width: 207px;
+                        cursor: pointer;
+                        background-color: rgb(30, 154, 241);
+                        border-radius: 8px;
+                        border: 1px solid rgba(0, 0, 0, 0);
+
+                    }
+                }
+                border-radius: 16px;
+                box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 0px;
+                background-color: white;
+                width: 255px;
+                height: 454px;
+                padding: 24px;
+                @include flexBoxDifferentParametrs(column, start, start, 26px);
+
+                >h1 {
+                    @include textSizes(20px, 600);
+                    color: black;
+                    width: 207px;
+                    height: 48px;
+                }
+
+                .aznicon {
+                    .left-side {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        gap: 100px;
+                        align-items: center;
+
+                        .month {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 15px;
+
+                            .azn {
+                                display: flex;
+                                flex-direction: row;
+
+                                h1 {
+                                    line-height: 48px;
+                                    ;
+                                    color: rgb(60, 169, 248);
+                                    @include textSizes(48px, 600)
+                                }
+
+                                span {
+                                    line-height: 30px;
+                                    color: rgb(60, 169, 248);
+                                    justify-items: end;
+                                    align-self: end;
+                                }
+                            }
+
+                            p {
+                                line-height: 19px;
+                                @include textSizes(16px, 600);
+                                color: rgba(33, 35, 39, 0.5);
+                            }
+                        }
+                    }
+                }
+            }
+            .two{
+                h2{
+                    gap: 0px;
+                    background-color: rgb(247, 193, 58);
+                    width: 257px;
+                    height: 47px;
+                    color: rgb(0, 0, 0);
+                    border-bottom-left-radius:0px;
+                    border-bottom-right-radius: 0px;
+                    border-top-left-radius: 16px;
+                    border-top-right-radius: 16px;
+                    @include textSizes(16px, 500);
+                }
+                border-radius: 16px;
+                box-shadow: rgb(247, 193, 58) 0px 1px 4px 0px;
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,46 @@
+@import "../base/reset";
+@import "../utils/variable";
+@import "../utils/mixins";
+@import "../base/extend";
+header{
+    background-color: #212327;
+    .container{
+        @extend %container;
+        .navbar{
+            height: 49px;
+            .left-side{
+                @include flexBoxDifferentParametrs(row,end,center,11px);
+                .country{
+                    @extend %marginTop;
+                    @include flexBox();
+                    margin-left: 10px;
+                    gap: 7px;
+                    h1{
+                        @extend %textParametrs;
+                    }
+                }
+                .number{
+                    @extend %marginTop;
+                    @include flexBox();
+                    margin-right: 10px;
+                    gap: 7px;
+                    h1{
+                        @extend %textParametrs;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header{
+        .container{
+            .navbar{
+                .left-side{
+                    @include flexBoxDifferentParametrs(row,space-between,center)
+                }
+            }
+        }
+    }
+  }

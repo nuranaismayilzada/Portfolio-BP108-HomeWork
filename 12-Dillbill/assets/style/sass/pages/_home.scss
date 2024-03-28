@@ -1,0 +1,269 @@
+@import "../base/reset";
+@import "../utils/variable";
+@import "../utils/mixins";
+@import "../base/extend";
+
+.navbarFixed {
+    background-color: $pageColor;
+
+    .container {
+        @extend %container;
+        .navbarr {
+            height: 102px;
+            padding: 0px 15px;
+            position: sticky;
+            background-color: $pageColor;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            @include flexBoxDifferentParametrs(row, space-between, center);
+
+            .burgericon {
+                display: none
+            }
+
+            .avatar {
+                display: none
+            }
+
+            .right-side {
+                @include flexBoxDifferentParametrs(row, space-evenly, center, 31px);
+
+                p {
+                    @extend %textParametrs;
+                    color: $fontColor;
+                }
+
+                .programmingnewicon {
+                    @include flexBox();
+                    gap: 5px;
+                }
+
+                .login {
+                    width: 71px;
+                    height: 38px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    color: #6c757d;
+                    border: 1px solid #6c757d;
+                    @extend %textParametrs;
+                }
+
+                .login:hover {
+                    transition: all 0.5s;
+                    color: white;
+                    background-color: #6c757d;
+                }
+
+                .signup {
+                    @extend %textParametrs;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    border: 1px solid #0d6efd;
+                    color: #0d6efd;
+                    width: 83px;
+                    height: 38px;
+                }
+
+                .signup:hover {
+                    color: white;
+                    transition: all 0.5s;
+                    background-color: #0d6efd;
+                }
+            }
+        }
+
+        .main {
+            height: 548px;
+            
+            @include flexBoxDifferentParametrs(row, space-between, center);
+
+            .left-side {
+                display: flex;
+                flex-direction:column;
+                align-items:start;
+                gap: 56px;
+                .top-side {
+                    @include flexBoxDifferentParametrs(column, center, start, 16px);
+
+                    h1 {
+                        width: 525px;
+                        height: 112px;
+                        color: rgb(33, 35, 39);
+                        @extend %textExtend;
+                        span {
+                            color: rgb(30, 154, 241);
+                            @extend %textExtend;
+                        }
+                    }
+                    div{
+                        @include flexBoxDifferentParametrs(row, center, center, 16px);
+                        p{
+                            color: rgb(33, 35, 39);
+                            @include textSizes(18px,400)
+
+                        }
+                    }
+
+                }
+
+                .bottom-side {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    button{
+                        @include flexBox();
+                        gap: 8px;
+                        @include textSizes(16px,700);
+                        padding-left: 56px;
+                        padding-top: 16px;
+                        padding-right: 56px;
+                        padding-bottom: 16px;
+                        align-items: center;
+                        background-color: rgb(30, 154, 241);
+                        border-radius: 8px;
+                        cursor: pointer;
+                        width: 283.047px;
+                        border: 1px solid rgb(30, 154, 241);
+                        p{
+                            @include textSizes(16px,700);
+                            color: white;
+                        }
+                    }
+                    button:hover{
+                        background-color: #0c52bc;
+                        transition: all 0.5s;
+                    }
+                    .tik{
+                        @include flexBox();
+                        gap: 16px;
+                        p{
+                            @include textSizes(16px,400);
+                            color: rgb(33, 35, 39);
+                        }
+                    }
+                }
+            }
+            .right-side{
+                img{
+                    width: 432px;
+                    height: 407px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbarFixed {
+        .container {
+            .navbarr {
+                .right-side {
+                    display: none;
+                }
+
+                .burgericon {
+                    display: initial;
+                }
+
+                .avatar {
+                    display: initial;
+                }
+            }
+        }
+        .container{
+            .main {
+                height: 100vh;
+                @include flexBoxDifferentParametrs(column-reverse, start, center);
+                .left-side {
+                    display: flex;
+                    flex-direction:column;
+                    align-items:start;
+                    gap: 16px;
+                    .top-side {
+                        margin-left: 10px;
+                        @include flexBoxDifferentParametrs(column, center, start, 16px);
+                        h1 {
+                            text-align: center;
+                            margin-top: 10px;
+                            width: 525px;
+                            height: 112px;
+                            color: rgb(33, 35, 39);
+                            @include textSizes(29px,600);
+                            line-height: 39px;
+                            width: 290px;
+                            height: 117px;
+                            span {
+                                @include textSizes(29px,600);
+                                line-height: 39px;
+                                width: 290px;
+                                height: 117px;
+                            }
+                        }
+                        div{
+                            @include flexBoxDifferentParametrs(row, center, center, 16px);
+                            p{
+                                color: rgb(33, 35, 39);
+                                @include textSizes(16px,400)
+                            }
+                            img{
+                                width: 16px;
+                                height: 16px;
+                            }
+                        }
+    
+                    }
+    
+                    .bottom-side {
+                        @include flexBoxDifferentParametrs(column, center, center,16px);
+                        button{
+                            @include flexBoxDifferentParametrs(row, center, center);
+                            gap: 8px;
+                            @include textSizes(16px,700);
+                            padding-left: 56px;
+                            padding-top: 16px;
+                            padding-right: 56px;
+                            padding-bottom: 16px;
+                            align-items: center;
+                            background-color: rgb(30, 154, 241);
+                            border-radius: 8px;
+                            cursor: pointer;
+                            width: 283.047px;
+                            border: 1px solid rgb(30, 154, 241);
+                            p{
+                                @include textSizes(16px,700);
+                                color: white;
+                            }
+                        }
+                        button:hover{
+                            background-color: #0c52bc;
+                            transition: all 0.5s;
+                        }
+                        .tik{
+                            width: 290px;
+                            height: 48px;
+                            @include flexBox();
+                            gap: 16px;
+                            p{
+                                @include textSizes(16px,400);
+                                color: rgb(33, 35, 39);
+                            }
+                        }
+                    }
+                }
+                .right-side{
+                    img{
+                        width: 210px;
+                        height: 197px;
+                    }
+                }
+                
+            }
+
+        }
+      
+    }
+
+
+}

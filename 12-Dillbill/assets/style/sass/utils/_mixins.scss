@@ -1,0 +1,20 @@
+@mixin flexBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexBoxDifferentParametrs($flexDirection,$justifyContent,$alignItems,$Gap:0px){
+    display: flex;
+    flex-direction: $flexDirection;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    gap: $Gap;
+}
+@mixin textSizes($fontSize,$fontWeight){
+    font-family: "Open Sans", sans-serif;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: 24px;
+}
+
