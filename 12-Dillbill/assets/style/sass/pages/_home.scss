@@ -32,6 +32,11 @@
                 p {
                     @extend %textParametrs;
                     color: $fontColor;
+                    a{
+                        text-decoration: none;
+                        @extend %textParametrs;
+                        color: $fontColor;
+                    }
                 }
 
                 .programmingnewicon {

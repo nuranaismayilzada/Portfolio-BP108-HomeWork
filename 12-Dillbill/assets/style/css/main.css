@@ -52,7 +52,7 @@ table {
   border-spacing: 0;
 }
 
-.navbarFixed .container .navbarr .right-side .signup, .navbarFixed .container .navbarr .right-side .login, .navbarFixed .container .navbarr .right-side p, header .container .navbar .left-side .number h1, header .container .navbar .left-side .country h1 {
+.navbarFixed .container .navbarr .right-side .signup, .navbarFixed .container .navbarr .right-side .login, .navbarFixed .container .navbarr .right-side p a, .navbarFixed .container .navbarr .right-side p, header .container .navbar .left-side .number h1, header .container .navbar .left-side .country h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -131,7 +131,7 @@ table {
   border-spacing: 0;
 }
 
-.navbarFixed .container .navbarr .right-side .signup, .navbarFixed .container .navbarr .right-side .login, .navbarFixed .container .navbarr .right-side p, header .container .navbar .left-side .number h1, header .container .navbar .left-side .country h1 {
+.navbarFixed .container .navbarr .right-side .signup, .navbarFixed .container .navbarr .right-side .login, .navbarFixed .container .navbarr .right-side p a, .navbarFixed .container .navbarr .right-side p, header .container .navbar .left-side .number h1, header .container .navbar .left-side .country h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -248,7 +248,7 @@ table {
   border-spacing: 0;
 }
 
-.navbarFixed .container .navbarr .right-side .signup, .navbarFixed .container .navbarr .right-side .login, .navbarFixed .container .navbarr .right-side p, header .container .navbar .left-side .country h1, header .container .navbar .left-side .number h1 {
+.navbarFixed .container .navbarr .right-side .signup, .navbarFixed .container .navbarr .right-side .login, .navbarFixed .container .navbarr .right-side p a, .navbarFixed .container .navbarr .right-side p, header .container .navbar .left-side .country h1, header .container .navbar .left-side .number h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -304,6 +304,10 @@ header .container .navbar .left-side .country, header .container .navbar .left-s
   gap: 31px;
 }
 .navbarFixed .container .navbarr .right-side p {
+  color: #212327;
+}
+.navbarFixed .container .navbarr .right-side p a {
+  text-decoration: none;
   color: #212327;
 }
 .navbarFixed .container .navbarr .right-side .programmingnewicon {
