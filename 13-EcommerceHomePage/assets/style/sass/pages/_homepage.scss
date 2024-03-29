@@ -1,0 +1,119 @@
+.mainsection{
+    background-image: url("../../../images/backgroundimage.png");
+    .container{
+        @extend %containerParametrs;
+        #main{
+            height: 663px;
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between; 
+            align-items: baseline;           
+         .left-side{
+            gap: 32px;
+            @include flexboxdifferentParametrs(column,baseline,center,32px);
+            >h1{
+                width: 577px;
+                height: 173px;
+                margin-left:100px; 
+                @include textsizesDifferent(black,Integralcf700,64px,700px,64px);
+            }
+            .text{
+                @include textsizesDifferent(black,Satoshi400,16px,400px,22px);
+                width: 545px;
+                height: 33px;        
+                margin-left: 100px;
+            }
+            button{
+                @include buttonSizes(210px,52px,62px,black);
+                @include textsizesDifferent(white,Satoshi500,16px,400px,21.6px);
+            }
+            .quality{
+                height:74px;       
+                @include flexBoxRow();
+                gap: 32px;
+                >div{
+                    height: 72px;
+                    width: 141px;
+                }
+                h4{
+                    @include textsizesDifferent(black,Satoshi700,40px,700px,54px);
+                }
+                p{
+                    @include textsizesDifferent(black,Satoshi400,12px,400px,22px);
+
+                }
+            }
+         }
+         .right-side{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: start;
+         }
+        }
+        .brend{
+            background-color: black;
+            height: 122px;
+        }
+    }
+}
+@media screen and (max-width:992px){
+    .mainsection{
+        .container{
+            @extend %containerParametrs;
+            #main{
+                height: 853px;
+                background-color: red;
+                display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                justify-content: baseline;
+             .left-side{
+                @include flexboxdifferentParametrs(column,baseline,baseline,20px);
+                >h1{
+                    margin-top: 40px;
+                    width: 315px;
+                    margin-left: 5px;
+                    height: 93px;                  
+                    @include textsizesDifferent(black,Integralcf700,36px,700px,34px);
+                }
+                .text{
+                    @include textsizesDifferent(black,Satoshi400,14px,400px,20px);
+                    width: 358px;
+                    height: 50px;
+                }
+                button{
+                    @include buttonSizes(358px,52px,62px,black);
+                    @include textsizesDifferent(white,Satoshi500,16px,400px,21.6px);
+                }
+                .quality{
+                    width: 250px;
+                    height: 50px;
+                    gap: 30px;
+                    @include flexBoxRow();
+                    flex-wrap: wrap;
+                    >div{
+                     width: 103px;
+                     height: 48px;
+                     margin-top: 10px;  
+                    }
+                    h4{
+                        @include textsizesDifferent(black,Satoshi700,40px,700px,54px);
+                    }
+                    p{
+                        @include textsizesDifferent(black,Satoshi400,12px,400px,22px);
+    
+                    }
+                }
+             }
+             .right-side{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: start;
+             }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+header{
+    background-color: black;
+    .container{
+        @extend %containerParametrs;
+        .header{
+            height: 38px;
+            @include flexboxdifferentParametrs(row,center,end,425px);
+            p{
+                @include textsizesDifferent(white,Satoshi400,14px,400px,18.9px);
+                a{
+                    @include textsizesDifferent(white,Satoshi500,14px,500px,18.9px);
+                }
+            }
+            img{
+                justify-self: end;
+            }
+            .burgermenu{
+                display: none;
+            }
+        }
+    }
+}
+.navbar{
+    background-color: white;
+    .container{
+        @extend %containerParametrs;
+        nav{
+            height: 96px;
+            @include flexBoxRow();
+            gap: 40px;
+            .burgermenu{
+                display: none;
+            }
+            ul{
+                @include flexBoxRow();
+                gap: 24px;
+                li:first-child{
+                    @include flexBoxRow();
+                    gap: 4px;
+                }
+                li{
+                    @include textsizesDifferent(black,Satoshi400,16px,400px,21.6px);
+                }
+            }
+            .inputSearching{
+                position: relative;
+                @include flexBoxRow();
+                input{
+                    width: 523px;
+                    height: 46px;
+                    background-color:#F0F0F0;
+                    border-radius: 62px;
+                    border: none;
+                    padding-left: 52px;
+                }
+                .searchimg{
+                    position: absolute;
+                    top: 13px;
+                    left: 17px;
+                }
+            }
+            .basketusericon{
+                @include flexBoxRow();
+                gap: 14px;
+                img:nth-child(3){
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    header{
+        background-color: black;
+        .container{
+            @include containermobileParametrs();
+            .header{
+                height: 34px;
+                @include flexboxdifferentParametrs(row,center,center,10px);
+                p{
+                    @include textsizesDifferent(white,Satoshi400,12px,400px,16.2px);
+                    a{
+                        @include textsizesDifferent(white,Satoshi500,12px,500px,16.2px);
+                    }
+                }
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+    .navbar{
+        background-color: rgb(255, 255, 255);
+        .container{
+            // @include containermobileParametrs();
+            nav{
+                height: 64px;
+                // @include flexboxdifferentParametrs(row,center,center,96px);
+                .burgerlogo{
+                    @include flexBoxRow();
+                    gap: 16px;
+                    .logoImage{
+                        width: 126px;
+                        height: 18px;                     
+                    }
+                }
+                .burgermenu{
+                    display: initial;
+                }
+                ul{
+                    display: none;
+                }
+                .inputSearching{
+                   display: none;
+                }
+                .basketusericon{
+                    @include flexBoxRow();
+                    gap: 12px;
+                    img:nth-child(3){
+                        display: initial;
+                    }
+                }
+            }
+        }
+    }
+}

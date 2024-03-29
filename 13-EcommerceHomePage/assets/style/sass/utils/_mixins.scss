@@ -1,0 +1,42 @@
+@mixin flexBoxRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexBoxColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexboxdifferentParametrs($flexDirection,$alignItems,$justifyContent,$Gap){
+    display: flex;
+    flex-direction: $flexDirection;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+    gap: $Gap;
+}
+@mixin textSizes($fontSize,$fontWeight){
+    font-family: "Open Sans", sans-serif;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: 24px;
+}
+@mixin textsizesDifferent($Color,$fontFamily,$fontSize,$fontWeight,$lineHeight){
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    color: $Color;
+}
+@mixin containermobileParametrs{
+    margin: 0px auto;
+    max-width: 320px;
+}
+@mixin buttonSizes ($Width,$Height,$Radius,$backgroundColor){
+    width: $Width;
+    height: $Height;
+    background-color: $backgroundColor;
+    border-radius: $Radius;
+}
