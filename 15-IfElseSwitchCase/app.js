@@ -73,12 +73,12 @@
 
 // Task 4:
 // Daxil edilən müsbət ədədin 3 və 5 ədədinə eyni anda bölünüb-bölünmədiyini tapan proqram yazın.
-// let number=42;
-// if (number%3==0 && number%5==0) {
+// let number=-42;
+// if (number>0 && number%3==0 && number%5==0) {
 //     console.log("Daxil edilen eded eyni anda hem 5-e,hemde 3-e qaliqsiz bolunur.");
 // }
 // else{
-//     console.log("Daxil edilen eded 3 ve 5 e eyni anda bolunmur.");
+//     console.log("Daxil edilen eded 3 ve 5 e eyni anda bolunmur ve ya menfidir.");
 // }
 
 
