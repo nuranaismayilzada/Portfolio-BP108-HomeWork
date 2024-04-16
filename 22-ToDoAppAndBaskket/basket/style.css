@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.section .homepage{
+    border: 1px solid black;
+    width: 100%;
+    border-top: none;
+    border-bottom: none;
+}
+.deleteBtn{
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+     padding: 10px;
+}
+.delete{
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.section .basketpage{
+    border: 1px solid black;
+    border-top: none;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+    background-color: rgb(206, 216, 186);
+    border-top: none;
+}
+.section .homepage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.description{
+    box-shadow: rgba(255, 6, 114, 0.777) 0px 50px 100px -20px, rgba(255, 101, 101, 0.3) 0px 30px 60px -30px, rgba(206, 10, 190, 0.35) 0px -2px 6px 0px inset;
+    color:blue;
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: xx-small;
+    margin-top: 15px;
+}
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    border: 1px solid black;
+}
+.price{
+    color: red;
+    font-size: large;
+    margin-left: 20px;
+}
+.fa-cart-shopping{
+    color: #ff0000;
+    margin-left: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+.title{
+    margin-left: 10px;
+}
+.image{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.count{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fa-trash-can{
+    width: 100px;
+    height: 50px;
+    font-size: 100px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 180px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    border: 1px solid black;
+}
