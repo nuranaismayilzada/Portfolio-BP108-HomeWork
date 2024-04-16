@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px auto;
+    width: 1232px;
+}
+
+#page .container .header {
+    margin-top: 100px;
+}
+
+#page .container .header div {
+    margin-bottom: 16px;
+    font-family: Archivo;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: rgb(254, 114, 53);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#page .container .header h1 {
+    margin-bottom: 16px;
+    font-family: Archivo;
+    font-weight: 600;
+    font-size: 3.157em;
+    line-height: 1.143;
+    color: rgb(36, 46, 66);
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#page .container .header p {
+    font-size: 1.333em;
+    line-height: 1.6;
+    color: rgb(91, 97, 124);
+    width: 954px;
+    text-align: center;
+    height: 69px;
+}
+
+#page .accordian .card {
+    width: 411px;
+    height: 791px;
+    padding-top: 55px;
+}
+
+#page .accordian .card img {
+    border: 1px solid gray;
+}
+#page .accordian{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#page .accordian .card h4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Archivo;
+    font-weight: 500;
+    font-size: 1.777em;
+    text-align: left;
+    line-height: 1.6;
+    color: rgb(36, 46, 66);
+}
+
+#page .accordian .card .text{
+    margin-bottom: 16px;
+    font-family: Muli;
+    width: 351px;
+    height: 77px;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+    color: rgb(94, 121, 151);
+}
+#page .accordian .card h6{
+    margin-bottom: 16px;
+    font-family: Archivo;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: rgb(254, 114, 53);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#page .accordian .card .slider{
+    display: flex;
+    flex-direction: column;
+}
+#page .accordian .card .box{
+    border: 1px solid;
+    border-top-color: rgb(238, 238, 238);
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-color: rgb(238, 238, 238);
+
+    
+}
+#page .accordian .card .box{
+    cursor: pointer;
+}
+#page .accordian .card .box .head{
+    border: 1px solid none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:20px ;
+    font-weight: 600;
+    width: 360px;
+    height: 45px;
+}
+#page .accordian .card .box .head .icons .fa-circle-minus{
+    display: none;
+}
+#page .accordian .card .box .head span{
+    color: rgb(36, 46, 66);
+
+}
+#page .accordian .card .box  p{
+    margin-bottom: 16px;
+    font-family: Muli;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+    width: 321px;
+    height: 128px;
+    color: rgb(94, 121, 151);
+    display: none;
+}
+.active{
+    display: block;
+}
+.notactive{
+    display: none;
+}
+.blue-background {
+    background-color: rgb(0, 119, 255);
+}
+
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(0, 119, 255);
+    background-image: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #fff;
+    border-top-width: 2px;
+    border-top-color: rgb(0, 119, 255);
+    border-top-style: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-right-width: 2px;
+    border-right-color: rgb(0, 119, 255);
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(0, 119, 255);
+    border-bottom-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 2px;
+    border-left-color: rgb(0, 119, 255);
+    border-left-style: solid;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    #page .accordian {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+    .box.active + button {
+        margin-top: 20px;
+    }
+}
+
