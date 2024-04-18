@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: rgba(218, 66, 165, 0.688);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .left-side h1{
+    color: white;
+    margin-left: 200px;
+}
+.navbar .right-side{
+    margin-right: 500px;
+}
+.navbar .right-side ul li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 900;
+}
+.navbar ul .two span{
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+}
+.navbar ul .two{
+    position: relative;
+}
+.navbar ul .two i{
+    cursor: pointer;
+}
+.navbar ul .three i{
+    cursor: pointer;
+}
+.navbar .right-side ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.navbar .right-side ul li span{
+    font-size: 16px;
+    font-weight: 900;
+}
+.homePage{
+    border: 1px solid black;
+    width: 100vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-top: 20px;
+    border: none;
+    background-color: rgba(237, 38, 38, 0.121);
+}
+
+.basketPage{
+    border: 1px solid black;
+    width: 100vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-top: 20px;
+    border: none;
+    background-color: rgba(148, 0, 227, 0.378);
+}
+.card{
+    margin-bottom: 20px;
+}
+.newBtn{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fa-cart-plus{
+    margin-left: 250px;
+    cursor: pointer;
+}
+.fa-heart-pulse{
+    margin-left: 300px;
+    cursor: pointer;
+}
+.image{
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.title{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.star{
+    margin-left: 150px;
+}
+.price{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.pilus{
+  cursor: pointer;
+}
+.minus{
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-left: 80px;
+}
+.countt{
+    cursor: pointer;
+}
+.deleteButton{
+    background-color: rgba(130, 130, 237, 0.616);
+    border: none;
+    margin-left: 500px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
