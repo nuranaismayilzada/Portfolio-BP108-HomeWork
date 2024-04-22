@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.add{
+    background-color: rgba(237, 36, 69, 0.699);
+    max-height: 100%;
+    max-width: 100vw;
+}
+.container{
+    margin: 0px auto;
+}
+.divs{
+    padding-top: 100px;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.add .container .divs form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.add .container .divs form input{
+    width: 400px;
+    border-radius: 10px;
+    height: 40px;
+}
+.add .container .divs form label{
+    font-style: italic;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.add .container .divs form div #addressphone{
+    width: 800px;
+}
+.delButton{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: aqua;
+    margin-left: 120px;
+    border-radius: 5px;
+    color: black;
+    font-style: italic;
+
+}
+.addButton{
+    width: 800px;
+    height: 40px;
+    margin-top: 30px; 
+    border-radius: 10px;
+    margin-left: 300px;
+}
+
+.cardsSection{
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
