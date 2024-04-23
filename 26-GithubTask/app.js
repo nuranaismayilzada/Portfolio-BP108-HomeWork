@@ -41,7 +41,12 @@ searchBtn.addEventListener("click", (e) => {
                     fetch(url).then((res)=>res.json()).then((dat)=>{
                         console.log(dat);
                         bio.innerText=dat.bio
-                        locationn.innerText=dat.location
+                        if (dat.location==null) {
+                            locationn.innerText="not mentioned"
+                        }
+                        else{
+                            locationn.innerText=dat.location
+                        }
                         followers.innerText=dat.followers
                         following.innerText=dat.following
                         repos.innerText=dat.public_repos
