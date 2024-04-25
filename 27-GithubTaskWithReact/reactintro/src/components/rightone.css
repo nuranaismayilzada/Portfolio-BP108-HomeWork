@@ -1,0 +1,28 @@
+.one{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 140px;
+    align-items: center;
+    justify-content: center;   
+}
+.one h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+ .one p{
+    color: rgba(227, 227, 227, 0.933);
+    word-spacing: 2px;
+ }
+ .two a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0079FE;
+}
+.three p{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(149, 149, 149);
+}

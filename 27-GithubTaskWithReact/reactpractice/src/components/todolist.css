@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+div ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}

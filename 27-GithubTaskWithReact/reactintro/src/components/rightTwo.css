@@ -1,0 +1,21 @@
+.four{
+    width: 400px;
+    border: 1px solid transparent;
+    border: none;
+    height: 80px;
+    background-color: #141C2F;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.four div p{
+    color: grey;
+}
+.four div h1{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

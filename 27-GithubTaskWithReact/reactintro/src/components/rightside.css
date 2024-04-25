@@ -1,0 +1,4 @@
+.rightside{
+    display: flex;
+    flex-direction: column;
+}
