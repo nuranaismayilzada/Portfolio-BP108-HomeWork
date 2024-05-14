@@ -1,0 +1,39 @@
+form{
+    border: 1px solid black;
+    width: 400px;
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin: 0px auto;
+    input{
+        border: 1px solid black;
+        width: 300px;
+        height: 40px;
+        margin-top: 30px;
+        padding-left: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        border: none;
+    }
+    button{
+        border: 1px solid black;
+        width: 300px;
+        height: 40px;
+        border: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        margin-top: 30px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+
+    }
+}
+.table{
+    margin-top: 30px;
+}
+.images{
+    width: 300px;
+    height: 300px;
+}

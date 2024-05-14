@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": "3",
+      "title": "Blue Yeti USB Microphone Blackout Edition",
+      "price": 120,
+      "category": "Women",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_3.png.webp"
+    },
+    {
+      "id": "4",
+      "title": "DYMO LabelWriter 450 Turbo Thermal Label Printer",
+      "price": 410,
+      "category": "Accessories",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_4.png.webp"
+    },
+    {
+      "id": "5",
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "category": "Accessories",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_5.png.webp"
+    },
+    {
+      "id": "6",
+      "title": "Fujifilm X100T 16 MP Digital Camera (Silver)",
+      "price": 520,
+      "category": "Accessories",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_6.png.webp"
+    },
+    {
+      "id": "7",
+      "title": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
+      "price": 610,
+      "category": "Men",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_7.png.webp"
+    },
+    {
+      "id": "8",
+      "title": "Blue Yeti USB Microphone Blackout Edition",
+      "price": 120,
+      "category": "Accessories",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_8.png.webp"
+    },
+    {
+      "id": "9",
+      "title": "DYMO LabelWriter 450 Turbo Thermal Label Printer",
+      "price": 410,
+      "category": "Accessories",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_9.png.webp"
+    },
+    {
+      "id": "10",
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "category": "Men",
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_10.png.webp"
+    }
+  ],
+  "basket": [
+    {
+      "id": "6fa6",
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_10.png.webp"
+    },
+    {
+      "id": "461c",
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_5.png.webp"
+    },
+    {
+      "id": "e4db",
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_5.png.webp"
+    },
+    {
+      "id": "29bf",
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "src": "https://preview.colorlib.com/theme/coloshop/images/product_5.png.webp"
+    }
+  ]
+}

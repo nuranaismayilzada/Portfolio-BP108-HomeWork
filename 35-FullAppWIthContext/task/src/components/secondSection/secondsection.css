@@ -1,0 +1,57 @@
+.secondSection {
+    width: 100%;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/deal_ofthe_week.png.webp");
+    height: 550px;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+  }
+  .secondSEC {
+    background-color: #f2f2f2;
+  }
+  .boxWrapper {
+     width: fit-content;
+     padding: 100px 10px 100px 600px;
+      h1{
+          font-size: 40px;
+          padding: 16px;
+          text-align: center;
+  
+      }
+      .line{
+          width: 70px;
+          height: 5px;
+          background-color:  #fe586a ;
+          margin-left: 250px;
+          
+      }
+    .circles {
+      display: flex;
+      gap: 15px;
+      padding: 30px;
+  
+      div {
+       background-color: white;
+        text-align: center;
+        padding: 25px 40px 25px 40px;
+        border-radius: 50%;
+        font-size: 30px;
+        h3{
+          color: #fe586a;
+        }
+        p{
+          font-size: 20px;
+          color: #696864;
+        }
+      }
+    }
+    button{
+      padding: 16px;
+      font-size: 16px;
+      background-color:black ;
+      border: none;
+      color: white;
+      border-radius: 5px;
+     margin-left: 220px;
+     margin-top: 20px;
+    }
+  }

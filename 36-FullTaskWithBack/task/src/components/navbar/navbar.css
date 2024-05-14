@@ -1,0 +1,77 @@
+nav{
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.mainNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    .navbarLeft-side{
+        h2{
+            color: black;
+            font-weight: 700;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        span{
+            font-weight: 700;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #fe4c50;
+        }
+    }
+    .navbarRight-side{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        .pages ul{
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+            }
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 45px;
+            li{
+                list-style: none;
+                font-size: 16px;
+            }
+        }
+        .icons{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            .basketIcon{
+                background-color: rgba(128, 128, 128, 0.468);
+                padding: 10px;
+                border-radius: 50%;
+                align-items: center;
+                position: relative;
+                span{
+                    position: absolute;
+                    top: 0px;
+                    color:white;
+                    font-size: 12px;
+                    border-radius: 50%;
+                    padding: 2px 6px 4px 6px;
+                    text-align: center;
+                    background-color: red;
+                }
+            }
+        }
+
+    }
+}

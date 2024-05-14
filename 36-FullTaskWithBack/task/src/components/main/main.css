@@ -1,0 +1,30 @@
+main{
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ background-image: url("https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg.webp");   
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 150px 0px 150px;
+    p{
+        font-size: 14px;
+        font-weight: 500px;
+    }
+    h1{
+        font-size: 72px;
+        width: 666px;
+    }
+    button{
+        color: white;
+       border: none;
+       border-radius: 5px;
+       width: 140px;
+       padding: 10px;
+        background-color:#FE4C50;
+    }
+}

@@ -1,0 +1,50 @@
+.firstsection{
+    width: 100%;
+    margin-top: 50px;
+}
+.cardds{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content:space-between;
+    /* gap: 50px; */
+    div{
+        button{
+            width: 160px;
+            height: 40px;
+            background-color:white;
+            border: none;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-left: 80px;
+            margin-top: 150px;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 40px;
+        }
+    }
+}
+.cardone{
+    width: 380px;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_1.jpg.webp");
+}
+.cardtwo{
+    width: 380px;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_2.jpg.webp");
+}
+.cardthree{
+    width: 380px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_3.jpg.webp");
+}

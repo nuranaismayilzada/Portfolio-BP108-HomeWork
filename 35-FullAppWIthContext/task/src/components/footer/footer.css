@@ -1,0 +1,50 @@
+.topSection{
+    width: 100%;
+    background-color:#f2f2f2 ;
+    padding: 40px 0px;
+    margin-top: 50px;
+    .text{
+        margin-top: 50px;
+        padding: 0px 120px;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+.rightbox{
+    display: flex;
+    flex-direction: row;
+    input{
+        padding: 15px;
+        border: transparent;
+        width: 300px;
+    }
+    button{
+        padding: 15px;
+        border: none;
+        background-color: #fe4c50 ;
+        font-weight: 700;
+        color: white;
+    }
+}
+.leftbox{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rightSide{
+    display: flex;
+    gap: 30px;
+}
+.leftSide{
+    display: flex;
+    gap: 60px;
+}
+.foot-side{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0px 120px;
+    justify-content: space-between;
+}

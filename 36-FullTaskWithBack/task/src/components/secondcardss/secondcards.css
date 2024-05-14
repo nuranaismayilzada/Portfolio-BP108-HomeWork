@@ -1,0 +1,37 @@
+.bestSellers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    .line {
+      background-color: #fe4c50;
+      height: 6px;
+      width: 90px;
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+   
+  }
+  .cartsWrapper{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    .cartt{
+      width: 230px;
+      height: 340px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      .txt {
+        text-align: center;
+        span{
+          color: #fe4c50;
+          font-weight: 800;
+        }
+      }
+    }
+  }
