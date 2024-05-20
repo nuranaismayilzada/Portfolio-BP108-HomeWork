@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbarSection{
+    background-color: black;
+    padding: 13px 10px;
+}
+.container{
+    max-width: 1294px;
+    margin: 0px auto;
+}
+.navbar{
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .left-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .left-side .usa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    .usatext{
+        color: white;
+        cursor: pointer;
+    }
+    .icon{
+        color: white;
+        cursor: pointer;
+    }
+}
+.navbar .left-side {
+    .number{
+        color: white;
+        cursor: pointer;
+    }
+}
+.navbar .right-side ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    li{
+        list-style: none;
+        padding-left: 36px;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+    }
+}
+@media screen and (max-width: 992px) {
+    .navbarSection{
+        display: none;
+    }
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.emailPage .container{
+    max-width: 100vw;
+}
+
+.emailPage {
+    background-image: url("https://preview.colorlib.com/theme/estore/assets/img/collection/latest-offer.png.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 100px;
+
+    .EmailPage {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .right-side{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .textSide{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: #000;
+                    font-size: 45px;
+                    width: 457px;
+                    height: 117px;
+                    font-weight: 700;
+                    line-height: 1.3;
+                    margin-bottom: 19px;
+                    font-family: "Playfair Display", serif;
+                }
+                p{
+                    color: #373b41;
+                    font-size: 20px;
+                    margin-bottom: 55px;
+                }
+            }
+        }
+
+        .left-side .emailandShop {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            input {
+                height: 60px;
+                width: 457px;
+                padding: 10px 32px;
+                border: 1px solid #fff;
+                border-radius: 30px;
+                font-size: 18px;
+                color: rgba(128, 128, 128, 0.725);
+                font-weight: 600;
+            }
+
+            button {
+                padding: 20px 47px;
+                background: #2577fd;
+                font-size: 14px;
+                font-weight: 300;
+                position: absolute;
+                right: 0;
+                border: 0;
+                cursor: pointer;
+                top: 0;
+                height: 100%;
+                color: #fff;
+                border-radius: 30px
+            }
+        }
+    }
+}

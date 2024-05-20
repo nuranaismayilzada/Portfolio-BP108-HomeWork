@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.imagepage {
+    background-color: #C8EBFF;
+}
+
+.imagepage .imagePages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagepage .imagePages .left-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 200px;
+
+    p {
+        font-family: "Yellowtail", cursive;
+        color: #2577fd;
+        font-size: 40px;
+        display: inline-block;
+    }
+
+    h1 {
+        color: #1f2022;
+        font-family: "Playfair Display", serif;
+        text-transform: uppercase;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: 1.1;
+        text-transform: capitalize;
+        margin-bottom: 13px;
+        width: 457px;
+    }
+
+    h6 {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 300;
+        margin-bottom: 39px;
+        color: #313639;
+        margin-bottom: 50px;
+        text-transform: capitalize;
+    }
+
+    button {
+        background: #2577fd;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        border-radius: 25px;
+        border: 0;
+        width: 155px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .imagepage .imagePages {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagepage .imagePages .right-side img{
+        width: 400px;
+        height: 500px;
+    }
+    
+    .imagepage .imagePages .left-side {
+        display: flex;
+        flex-direction: column;
+        margin-right:200px;    
+        margin-top: 50px;
+        p {
+            font-family: "Yellowtail", cursive;
+            color: #2577fd;
+            font-size: 40px;
+            display: inline-block;
+        }
+    
+        h1 {
+            color: #1f2022;
+            font-family: "Playfair Display", serif;
+            text-transform: uppercase;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 1.1;
+            text-transform: capitalize;
+            margin-bottom: 13px;
+        }
+    
+        h6 {
+            font-family: "Playfair Display", serif;
+            font-style: italic;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 300;
+            margin-bottom: 39px;
+            color: #313639;
+            margin-bottom: 50px;
+            text-transform: capitalize;
+        }
+        button{
+            margin-bottom: 50px;
+
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .imagepage .imagePages .right-side img{
+        display: none;
+    }
+
+    
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.LatestSection{
+    margin-top: 200px;
+}
+.LatestSection .LatestPage{
+
+}
+.LatestSection .LatestPage .textSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        color: #000;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: "Playfair Display", serif;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       gap: 40px;
+        li{
+            list-style: none;
+            padding-bottom: 10px;
+            display: block;
+            color: #8f8f96;
+            text-transform: capitalize;
+            font-size: 16px;
+        }
+    }
+}
